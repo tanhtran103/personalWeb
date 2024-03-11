@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div{
+    background-color: #ffffff;
+}
+.div_container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.div_container_left{
+    display: flex;
+    align-items: center;
+}
+.div_container_right{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 75px;
+    height: 65px;
+    margin-right: 10px
+}
+.nameLogo{
+    font-size: 30px;
+    font-weight: 800;
+}
+.followUsIcons{
+    display: flex;
+    align-items: center;
+}
+.followUsIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.followUs{
+    display: flex;
+    align-items: center;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg,hsl(344.29deg 84.85% 61.18%),hsl(234.48deg 84.46% 62.16%));
+}
+.article_container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    height: 60vh;
+
+}
+.article_container_left{
+    width: 100%;
+    position: relative;
+}
+.article_container_left_imgPlus{
+    position: absolute;
+    right: 120px;
+}
+.article_container_left_img{
+    width: 400px;
+    height: 650px;
+    position: absolute;
+}
+.article_container_right_comingSoon{
+    color: hsl(0deg 0% 0%);
+    font-size: 40px;
+    font-weight: 800;
+}
+.article_container_right_dine{
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.article_container_right_p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+.article_container_right_email_input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 0 10px;
+    font-weight: 700;
+}
+.article_container_right_email_button{
+    background-color: hsl(344.65deg 87.76% 61.57%);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    height: max-content;
+}
+.footer_container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_container_text{
+    padding: 50px 0;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
